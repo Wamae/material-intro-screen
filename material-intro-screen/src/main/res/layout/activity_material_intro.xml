@@ -48,7 +48,7 @@
                 android:layout_marginLeft="16dp"
                 android:background="@drawable/button_background"
                 android:padding="16dp"
-                android:src="@drawable/ic_previous"
+                app:srcCompat="@drawable/ic_previous"
                 android:visibility="invisible" />
 
             <ImageButton
@@ -59,7 +59,7 @@
                 android:layout_marginLeft="16dp"
                 android:background="@drawable/button_background"
                 android:padding="16dp"
-                android:src="@drawable/ic_skip"
+                app:srcCompat="@drawable/ic_skip"
                 android:visibility="gone" />
 
             <io.github.dreierf.materialintroscreen.widgets.InkPageIndicator
@@ -83,7 +83,7 @@
                 android:layout_marginRight="16dp"
                 android:background="@drawable/button_background"
                 android:padding="16dp"
-                android:src="@drawable/ic_next" />
+                app:srcCompat="@drawable/ic_next" />
         </LinearLayout>
     </LinearLayout>
 
