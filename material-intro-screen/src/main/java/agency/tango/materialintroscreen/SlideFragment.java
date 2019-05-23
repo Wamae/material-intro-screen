@@ -116,7 +116,7 @@ public class SlideFragment extends ParallaxFragment {
         descriptionTextView.setText(description);
 
         if (image != 0) {
-            imageView.setImageDrawable(ContextCompat.getDrawable(getActivity(), image));
+            imageView.setImageResource(image);
             imageView.setVisibility(View.VISIBLE);
         }
     }
